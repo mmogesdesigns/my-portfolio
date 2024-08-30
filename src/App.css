@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to bottom, #8A89FF, #FFBACB);
+  margin: 0; 
+  padding: 0;
+  min-height: 100vh;
+}
+/* Home */
+.home-section {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #8A89FF, #FFBACB);
+   height: 100vh;
+}
+.nav-bar{
+    background-color: #8A89FF;
+}
+.home-hr{
+    width: 40%;
+    margin: 20px auto;
+    color: #7B68EE;
+    height: 6px;
+}
+.start-btn{
+    padding: 1.2%;
+    border-radius:26px ;
+    background-color: #374785;
+    color: #F0F0F0;
+    border: solid 1px #D6C4FF;
+    margin-top: 5px;
+}
+/* Projects */
