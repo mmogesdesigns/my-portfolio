@@ -1,9 +1,9 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 
-const ProjectCard = ({imgSrc, title, description, projectLink, }) => {
+const ProjectCard = ({imgSrc, title, description, projectLink,reverse }) => {
   return (
-    <Row className="align-items-center my-5">
+    <Row className={`align-items-center my-5 ${reverse ? 'flex-row-reverse' : ''}`}>
       <Col md={6} className='mb-4 mb-md-0'>
         <img src={imgSrc} alt={title} className="img-fluid rounded" />
       </Col>
