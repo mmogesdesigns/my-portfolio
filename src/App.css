@@ -28,3 +28,61 @@ body {
     margin-top: 5px;
 }
 /* Projects */
+
+
+/* About */
+.tech-section {
+  padding: 50px 0;
+}
+
+/* Grid layout for tech stack icons */
+.grid-container {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.grid-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item span {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.grid-item svg {
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover svg {
+  transform: rotate(10deg);
+}
+h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

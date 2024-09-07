@@ -32,13 +32,13 @@ const Header = () => {
             >
              
               <Nav.Item>
-                <Nav.Link as={Link} to="/about" eventKey="/about">
-                  About
+                <Nav.Link as={Link} to="/projects" eventKey="/projects">
+                  Projects
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to="/projects" eventKey="/projects">
-                  Projects
+                <Nav.Link as={Link} to="/about" eventKey="/about">
+                  About
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
