@@ -13,25 +13,25 @@ const Projects = () => {
       projectLink: "https://chefmate.netlify.app/",
     },
     {
+      imgSrc: "/confessIt-ss.png",
+      title: "ConfessIt",
+      description:
+      "jdkfsdjbfkadsjf hkadshfdahfadjhfadjgjbhadfjbdfsjhksdahjkdsafjhkdfs dhjsduhsd",
+      projectLink: "https://chefmate.netlify.app/",
+    },
+    {
+      imgSrc: "/chefmate-ss.png",
+      title: "FindMeAJob.js",
+      description:
+      "jdkfsdjbfkadsjf hkadshfdahfadjhfadjgjbhadfjbdfsjhksdahjkdsafjhkdfs dhjsduhsd",
+      projectLink: "https://chefmate.netlify.app/",
+    },
+    {
       imgSrc: "/weather-app-ss.png",
       title: "Weather Application",
       description:
         "jdkfsdjbfkadsjf hkadshfdahfadjhfadjgjbhadfjbdfsjhksdahjkdsafjhkdfs dhjsduhsd",
       projectLink: "https://www.google.com/",
-    },
-    {
-      imgSrc: "/confessIt-ss.png",
-      title: "ConfessIt",
-      description:
-        "jdkfsdjbfkadsjf hkadshfdahfadjhfadjgjbhadfjbdfsjhksdahjkdsafjhkdfs dhjsduhsd",
-      projectLink: "https://chefmate.netlify.app/",
-    },
-    {
-      imgSrc: "/chefmate-ss.png",
-      title: "ChefMate",
-      description:
-        "jdkfsdjbfkadsjf hkadshfdahfadjhfadjgjbhadfjbdfsjhksdahjkdsafjhkdfs dhjsduhsd",
-      projectLink: "https://chefmate.netlify.app/",
     },
   ];
   

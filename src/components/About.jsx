@@ -44,7 +44,7 @@ const About = () => {
           </Row>
           <Row className="justify-content-center">
             <div>
-              <h3 className="text-center text-decoration-underline my-4">
+              <h3 className="text-center text-decoration-underline upper my-4">
                 Tech Stacks
               </h3>
 
@@ -69,7 +69,7 @@ const About = () => {
 
           <Row className="justify-content-center mt-5">
             <div>
-              <h3 className="text-center text-decoration-underline my-4">
+              <h3 className="text-center text-decoration-underline upper my-4">
                 Frameworks & Libraries
               </h3>
               <ul className="tech-stack-list grid-container">
@@ -95,10 +95,10 @@ const About = () => {
                 </li>
                 <li className="grid-item">
                   <img
-                    src="/material-ui-icon.png" 
+                    src="/material-ui-icon.png"
                     alt="Material UI"
-                    width={50} 
-                    height={50} 
+                    width={50}
+                    height={50}
                   />
                   <span>Material UI</span>
                 </li>

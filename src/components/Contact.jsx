@@ -32,14 +32,15 @@ const Contact = () => {
             <h1 className="text-center text-decoration-underline my-4">
               Contact Me
             </h1>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit} className="p-4 shadow-lg rounded">
               <Form.Group className="mb-3" controlId="formName">
-                <Form.Label>Name</Form.Label>
+                <Form.Label>Name:</Form.Label>
                 <Form.Control
                   type="text"
                   name="name"
                   placeholder=" Enter your name"
                   required
+                  className="form-input"
                 />
                 <ValidationError
                   prefix="Name"
@@ -49,12 +50,13 @@ const Contact = () => {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formEmail">
-                <Form.Label>Email</Form.Label>
+                <Form.Label>Email:</Form.Label>
                 <Form.Control
                   type="email"
                   name="email"
                   placeholder=" Enter your email"
                   required
+                  className="form-input"
                 />
 
                 <ValidationError
@@ -64,13 +66,14 @@ const Contact = () => {
                 />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formMessage">
-                <Form.Label>Message</Form.Label>
+                <Form.Label>Message:</Form.Label>
                 <Form.Control
                   as="textarea"
                   name="message"
                   rows={4}
                   placeholder="Your message"
                   required
+                  className="form-input"
                 />
 
                 <ValidationError
