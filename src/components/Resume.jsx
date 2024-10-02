@@ -14,7 +14,7 @@ const Resume = () => {
               My Resume
             </h1>
             <a
-              href="/resume.pdf" // Replace this with your actual file path
+              href="/resume1.pdf" 
               download="Mariamawit_Resume.pdf"
               className="resume-download">
               <IoMdDownload/>

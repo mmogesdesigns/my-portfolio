@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import logo from '../assets/logo.png';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import '../App.css';
 
 
@@ -71,6 +73,30 @@ const Header = () => {
                   onClick={handleNavItemToggle}
                 >
                   Contact
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="https://github.com/mmogesdesigns"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  eventKey="/contact"
+                  onClick={handleNavItemToggle}
+                >
+                  <FaGithub size={20} color="#000" />
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="https://www.linkedin.com/in/mariamawit-moges/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  eventKey="/contact"
+                  onClick={handleNavItemToggle}
+                >
+                  <FaLinkedin color="#000" size={20} />
                 </Nav.Link>
               </Nav.Item>
             </Nav>

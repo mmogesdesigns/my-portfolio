@@ -17,29 +17,28 @@ const About = () => {
               About Me
             </h1>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center about-p">
             <p>
-              I'm a passionate frontend developer with experience in creating
-              dynamic and user-friendly web applications. I have a strong
-              background in JavaScript, React, and Bootstrap. I'm a passionate
-              frontend developer with experience in creating dynamic and
-              user-friendly web applications. I have a strong background in
-              JavaScript, React, and Bootstrap.I'm a passionate frontend
-              developer with experience in creating dynamic and user-friendly
-              web applications. I have a strong background in JavaScript, React,
-              and Bootstrap.
+              I'm Mariamawit, a passionate frontend developer who loves crafting
+              seamless, user-friendly experiences with React. While I’ve had the
+              opportunity to work across the stack and build full-fledged
+              applications, my heart belongs to the frontend, where I get to
+              bring ideas to life. Coding for me is like solving a puzzle—each
+              piece fitting perfectly to form a complete picture. It’s the
+              challenge, the creativity, and the satisfaction of seeing things
+              click into place that keeps me hooked.
             </p>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center about-p mb-5">
             <p>
-              In my free time, I enjoy contributing to open-source projects,
-              learning new technologies, and participating in developer
-              communities. I'm a passionate frontend developer with experience
-              in creating dynamic and user-friendly web applications. I have a
-              strong background in JavaScript, React, and Bootstrap.I'm a
-              passionate frontend developer with experience in creating dynamic
-              and user-friendly web applications. I have a strong background in
-              JavaScript, React, and Bootstrap.
+              Outside of coding, I’m a huge fan of travel and adventure. I’ve
+              had the privilege of living in three countries and exploring over
+              13 so far. My ultimate goal? To visit all 195 countries! When I’m
+              not planning my next trip, you can usually find me staying
+              active—whether it’s hiking, boxing, hitting the gym, or practicing
+              yoga. I’m also really big on personal development, and I truly
+              believe in the power of small, consistent progress. It’s all about
+              moving forward, no matter how small the steps.
             </p>
           </Row>
           <Row className="justify-content-center">
@@ -72,7 +71,7 @@ const About = () => {
               <h3 className="text-center text-decoration-underline upper my-4">
                 Frameworks & Libraries
               </h3>
-              <ul className="tech-stack-list grid-container">
+              <ul className="tech-stack-list grid-container mb-5">
                 <li className="grid-item">
                   <FaReact size={50} color="#61DBFB" />
                   <span>React</span>
